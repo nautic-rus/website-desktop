@@ -1,0 +1,16 @@
+<div class="header">
+  <div></div>
+  <a class="cy" routerLink="">
+    <img src="assets/nautic.png" height="50">
+  </a>
+  <div></div>
+  <div class="cx cy">
+    <div [routerLink]="['']" routerLinkActive="selected-menu" [routerLinkActiveOptions]= "{exact: true}" class="text-navi padding cursor-pointer">{{t.translate('ГЛАВНАЯ')}}</div>
+    <div [routerLink]="['/projects']" routerLinkActive="selected-menu" class="text-navi padding cursor-pointer">{{t.translate('ПРОЕКТЫ')}}</div>
+    <div [routerLink]="['/design']" routerLinkActive="selected-menu" class="text-navi padding cursor-pointer">{{t.translate('ДИЗАЙН')}}</div>
+    <div [routerLink]="['/services']" routerLinkActive="selected-menu" class="text-navi padding cursor-pointer">{{t.translate('УСЛУГИ')}}</div>
+    <div [routerLink]="['/certs']" routerLinkActive="selected-menu" class="text-navi padding cursor-pointer">{{t.translate('СЕРТИФИКАТЫ')}}</div>
+    <div [routerLink]="['/contacts']" routerLinkActive="selected-menu" class="text-navi padding cursor-pointer">{{t.translate('КОНТАКТЫ')}}</div>
+    <div class="text-navi padding cursor-pointer" (click)="switchLang()">{{this.t.lang}}</div>
+  </div>
+</div>

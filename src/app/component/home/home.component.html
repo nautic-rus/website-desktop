@@ -1,0 +1,210 @@
+<div>
+  <div class="background-image" parallax [ratio]="0.7"></div>
+  <div [@openClose]="isOpen ? 'open' : 'closed'" class="main-text-home">
+    <div class="main-text-container"><span [innerHTML]="titleText"></span></div>
+  </div>
+  <div class="all">
+    <div class="cx cy pt-1 pb-1">
+      <div class="heading-text">{{t.translate('Наши текущие проекты')}}</div>
+    </div>
+    <div class="cx cy pt-1 pb-2">
+      <img src="assets/down-arrow.svg" height="36">
+    </div>
+    <div class="projects">
+      <div (click)="openProject('87')" class="project">
+        <div class="cursor-pointer" (mouseenter)="playVideo(0, player0)" (mouseleave)="stopVideo(0)">
+          <img class="project-thumb" [src]="projects[0].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
+          <video #player0 loop [ngStyle]="getVideoStyle(0)" class="project-video" [src]="projects[0].video"></video>
+        </div>
+        <h2 class="ship-name-home cursor-default mt-1">
+          {{projects[0].name}}
+        </h2>
+        <div class="ship-text cursor-default">
+          {{projects[0].description}}
+        </div>
+        <div class="details cx cy">
+          <div class="cy pl-20">
+            <div class="button cx cy cursor-pointer" (click)="openProject('87')">{{t.translate('Подробнее...')}}</div>
+          </div>
+        </div>
+      </div>
+      <div (click)="openProject('82')" class="project cursor-pointer">
+        <div (mouseenter)="playVideo(1, player1)" (mouseleave)="stopVideo(1)">
+          <img class="project-thumb" [src]="projects[1].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
+          <video #player1 loop [ngStyle]="getVideoStyle(1)" class="project-video" [src]="projects[1].video"></video>
+        </div>
+        <h2 class="ship-name-home mt-1 cursor-default">
+          {{projects[1].name}}
+        </h2>
+        <div class="ship-text cursor-default">
+          {{projects[1].description}}
+        </div>
+        <div class="details cx cy">
+          <div class="cy pl-20">
+            <div class="button cx cy cursor-pointer" (click)="openProject('82')">{{t.translate('Подробнее...')}}</div>
+          </div>
+        </div>
+      </div>
+      <div (click)="openProject('63')" class="project cursor-pointer">
+        <div (mouseenter)="playVideo(2, player2)" (mouseleave)="stopVideo(2)">
+          <img class="project-thumb" [src]="projects[2].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
+          <video #player2 loop [ngStyle]="getVideoStyle(2)" class="project-video" [src]="projects[2].video"></video>
+        </div>
+        <h2 class="ship-name-home mt-1 cursor-default">
+          {{projects[2].name}}
+        </h2>
+        <div class="ship-text cursor-default">
+          {{projects[2].description}}
+        </div>
+        <div class="details cx cy">
+          <div class="cy pl-20">
+            <div class="button cx cy cursor-pointer" (click)="openProject('63')">{{t.translate('Подробнее...')}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <div (click)="openProject('60')" class="project cursor-pointer">
+        <div (mouseenter)="playVideo(3, player3)" (mouseleave)="stopVideo(3)">
+          <img class="project-thumb" [src]="projects[3].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
+          <video #player3 loop [ngStyle]="getVideoStyle(3)" class="project-video" [src]="projects[3].video"></video>
+        </div>
+        <h2 class="ship-name-home mt-1 cursor-default">
+          {{projects[3].name}}
+        </h2>
+        <div class="ship-text cursor-default">
+          {{projects[3].description}}
+        </div>
+        <div class="details cx cy">
+          <div class="cy pl-20">
+            <div class="button cx cy cursor-pointer" (click)="openProject('60')">{{t.translate('Подробнее...')}}</div>
+          </div>
+        </div>
+      </div>
+      <div (click)="openProject('48')" class="project cursor-pointer">
+        <div (mouseenter)="playVideo(4, player4)" (mouseleave)="stopVideo(4)">
+          <img class="project-thumb" [src]="projects[4].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
+          <video #player4 loop [ngStyle]="getVideoStyle(4)" class="project-video" [src]="projects[4].video"></video>
+        </div>
+        <h2 class="ship-name-home mt-1 cursor-default">
+          {{projects[4].name}}
+        </h2>
+        <div class="ship-text cursor-default">
+          {{projects[4].description}}
+        </div>
+        <div class="details cx cy">
+          <div class="cy pl-20">
+            <div class="button cx cy cursor-pointer" (click)="openProject('48')">{{t.translate('Подробнее...')}}</div>
+          </div>
+        </div>
+      </div>
+      <div (click)="openProject('30')" class="project cursor-pointer">
+        <div (mouseenter)="playVideo(5, player5)" (mouseleave)="stopVideo(5)">
+          <img class="project-thumb" [src]="projects[5].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
+          <video #player5 loop [ngStyle]="getVideoStyle(5)" class="project-video" [src]="projects[5].video"></video>
+        </div>
+        <h2 class="ship-name-home mt-1 cursor-default">
+          {{projects[5].name}}
+        </h2>
+        <div class="ship-text cursor-default">
+          {{projects[5].description}}
+        </div>
+        <div class="details cx cy">
+          <div class="cy pl-20">
+            <div class="button cx cy cursor-pointer" (click)="openProject('30')">{{t.translate('Подробнее...')}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <div (click)="openProject('24')" class="project cursor-pointer">
+        <div (mouseenter)="playVideo(6, player6)" (mouseleave)="stopVideo(6)">
+          <img class="project-thumb" [src]="projects[6].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
+          <video #player6 loop [ngStyle]="getVideoStyle(6)" class="project-video" [src]="projects[6].video"></video>
+        </div>
+        <h2 class="ship-name-home mt-1 cursor-default">
+          {{projects[6].name}}
+        </h2>
+        <div class="ship-text cursor-default">
+          {{projects[6].description}}
+        </div>
+        <div class="details cx cy">
+          <div class="cy pl-20">
+            <div class="button cx cy cursor-pointer" (click)="openProject('24')">{{t.translate('Подробнее...')}}</div>
+          </div>
+        </div>
+      </div>
+      <div (click)="openProject('20')" class="project cursor-pointer">
+        <div (mouseenter)="playVideo(7, player7)" (mouseleave)="stopVideo(7)">
+          <img class="project-thumb" [src]="projects[7].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
+          <video #player7 loop [ngStyle]="getVideoStyle(7)" class="project-video" [src]="projects[7].video"></video>
+        </div>
+        <h2 class="ship-name-home mt-1 cursor-default">
+          {{projects[7].name}}
+        </h2>
+        <div class="ship-text cursor-default">
+          {{projects[7].description}}
+        </div>
+        <div class="details cx cy">
+          <div class="cy pl-20">
+            <div class="button cx cy cursor-pointer" (click)="openProject('20')">{{t.translate('Подробнее...')}}</div>
+          </div>
+        </div>
+      </div>
+      <div (click)="openProject('15')" class="project cursor-pointer">
+        <div (mouseenter)="playVideo(8, player8)" (mouseleave)="stopVideo(8)">
+          <img class="project-thumb" [src]="projects[8].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
+          <video #player8 loop [ngStyle]="getVideoStyle(8)" class="project-video" [src]="projects[8].video"></video>
+        </div>
+        <h2 class="ship-name-home mt-1 cursor-default">
+          {{projects[8].name}}
+        </h2>
+        <div class="ship-text cursor-default">
+          {{projects[8].description}}
+        </div>
+        <div class="details cx cy">
+          <div class="cy pl-20">
+            <div class="button cx cy cursor-pointer" (click)="openProject('15')">{{t.translate('Подробнее...')}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<div class="project" parallax cssProperty="transform: translate" axis="%" minValue="0" maxValue="30" cssUnit="%" [config]="{initialValue: 30, ratio: -.08}" >-->
+    <!--  <div>{{projects[2].name}}</div>-->
+    <!--  <div>-->
+    <!--    <img [src]="projects[2].thumb"/>-->
+    <!--  </div>-->
+    <!--</div>-->
+    <div class="heading cx cy py-1">
+      <div class="heading-text">{{t.translate('О Компании')}}</div>
+    </div>
+    <div class="color-line"></div>
+    <div class="cx cy mt-3 mb-3">
+      <div class="interview-text-with-video">
+        <div class="content cy">
+          <strong class="medium-text">
+            {{t.translate('Наутик Рус — это российская компания, выполняющая весь спектр проектирования рыболовных судов, от концептуального проекта до рабочей документации.')}}
+          </strong>
+          <strong class="medium-text">
+            {{t.translate('Компания использует инновационные технологии в проектировании рыболовных траулеров от своих зарубежных партнеров, опираясь на многолетний опыт российских морских инженеров.')}}
+          </strong>
+          <strong class="medium-text">
+            {{t.translate('Мы готовы предложить конкурентоспособное решение для любого рыбодобывающего проекта, как в России, так и за рубежом.')}}
+          </strong>
+        </div>
+        <div class="cx cy">
+          <video class="interview" controls poster="assets/videoposter.jpg">
+            <source src="assets/interwiew.mp4" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+    </div>
+    <div class="bottom-line"></div>
+    <div class="cx cy">
+      <iframe *ngIf="t.lang == 'RU'" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae20b5dc9f5bb93f03c2ff70bd1a8341efb00a357cf04e76b4ea66140297efd62&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+      <iframe *ngIf="t.lang == 'EN'" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae20b5dc9f5bb93f03c2ff70bd1a8341efb00a357cf04e76b4ea66140297efd62&amp;source=constructor&lang=en_US" width="100%" height="400" frameborder="0"></iframe>
+    </div>
+  </div>
+</div>
+

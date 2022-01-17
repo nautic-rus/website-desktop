@@ -1,0 +1,104 @@
+.contacts{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+.people{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.filter-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.filter-buttons-m{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 94%;
+  margin: 0 auto;
+}
+.filter-button{
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: GoogleSans-Regular, Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  font-size: calc(0.72rem + 0.1vw);
+  color: #3c4043;
+}
+.filter-button-m{
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 6px;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  border-radius: 3px;
+  font-size: calc(0.6rem + 0.1vw);
+  color: #444444;
+}
+@media (max-width: 1600px) {
+  .filter-button {font-size: calc(0.62rem + 0.1vw);}
+}
+.filter-button:hover{
+  background-color: #f6f6f6;
+}
+.human{
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  border: 0;
+  flex-direction: column;
+  width: 250px;
+  height: 420px;
+  margin: 10px;
+}
+.ava{
+  width: 200px;
+  height: 200px;
+}
+.card-header{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  width: 100%;
+  font-family: GoogleSans-Regular, Arial, Helvetica, sans-serif;
+  font-size: calc(0.9rem + 0.1vw);
+  color: #696969;
+}
+.name{
+  font-size: calc(1.4rem + 0.1vw);
+  color: #2f4f4f;
+  font-weight: 400;
+  text-align: center;
+  font-family: GoogleSans-Regular, Arial, Helvetica, sans-serif;
+}
+.footer{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-family: GoogleSans-Regular, Arial, Helvetica, sans-serif;
+  font-size: calc(0.9rem + 0.1vw);
+  color: #696969;
+}
+.bottom{
+  height: 50px;
+}
+.w-60{
+  width: 60%;
+}
+.our-team{
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+@media (max-width: 1600px) {
+  .our-team {padding-bottom: 5px;
+    padding-top: 5px;
+  }
+}
+.select-filter{
+  background-color: #f6f6f6;
+}

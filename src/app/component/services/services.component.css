@@ -1,0 +1,37 @@
+.content{
+  margin: 0 auto;
+  width: 50%;
+  font-family: GoogleSans-Regular, serif;
+  text-align: justify;
+}
+.service-name{
+  font-family: GoogleSans-Regular, serif;
+  font-size: 1.5rem;
+  color: #3c4043;
+}
+.medium-text{
+  padding-bottom: 1rem;
+  font-size: calc(0.95rem + 0.1vw);
+  color: #3c4043;
+}
+.picture{
+  width: 350px;
+}
+.service-description{
+  line-height: 1.5;
+}
+.thumb-img{
+  width: 15vw;
+  max-width: 220px;
+}
+.thumb-img-pdsp{
+  width: 15vw;
+  max-width: 220px;
+}
+.arrow-down{
+  transform: rotate(90deg);
+  transition: 0.4s;
+}
+.arrow-up{
+  transition: 0.4s;
+}

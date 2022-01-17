@@ -1,0 +1,75 @@
+<div class="page cx cy">
+  <div class="screen">
+    <div class="cx cy py-1 direction-column">
+      <div class="heading-ship mb-0">{{ship.getNameUpper()}}</div>
+      <div class="text-description ship-text">{{ship.getDescNameUpper()}}</div>
+      <span class="close cursor-pointer" routerLink="">
+        <img src="assets/close-button.svg" height="25">
+      </span>
+    </div>
+    <div class="cursor-pointer" (click)="openFull(video, $event)">
+      <video class="w-100" #video muted autoplay loop [src]="ship.fullVideo"></video>
+    </div>
+    <div class="cx cy pt-20">
+      <div class="mx-10 ship" *ngFor="let image of ship.images; let ind = index">
+        <img alt="Проект рыболовного траулера" title="Рыболовное судно" class="thumb-img" [src]="image.thumb" (click)="openImage(ship.images, ind)"/>
+      </div>
+    </div>
+    <div class="">
+      <div class="big-text">
+        <div class="cx cy">КМ
+          <img src="assets/star.png">
+        </div>
+        <div class="" *ngFor="let mainProp of ship.mainProps">{{mainProp}}</div>
+      </div>
+    </div>
+    <div class="text-navi-details cx cy mt-2 parameters title-string">
+      <div class="px-20 py-10">{{t.translate('ДЛИНА')}} = {{ship.props[0]}}{{t.translate('м')}}</div>
+      <div class="px-20">{{t.translate('ШИРИНА')}} = {{ship.props[1]}}{{t.translate('м')}}</div>
+      <div class="px-20">{{t.translate('ОСАДКА')}} = {{ship.props[2]}}{{t.translate('м')}}</div>
+      <div class="px-20">{{t.translate('СКОРОСТЬ СУДНА')}} = {{ship.props[3]}}{{t.translate('уз')}}</div>
+      <div class="px-20">{{t.translate('ЭКИПАЖ')}} - {{ship.props[4]}}{{t.translate('чел')}}</div>
+    </div>
+    <div class="cx cy">
+      <div class="text-description mt-2">
+        <span [innerHTML]="ship.subDescription1"></span>
+        <span class="text-bold"> Enduro™ Bow</span>
+        <span [innerHTML]="ship.subDescription2"></span>
+      </div>
+    </div>
+    <div class="text-description mt-1">
+      <div *ngFor="let details of ship.subDetails">
+        {{details}}<br>
+      </div>
+    </div>
+    <div class="text-description mt-1">
+      <span class="text-bold">{{t.translate('Видами промысловых рыб являются:')}}</span>
+      {{ship.fishTypes}}
+    </div>
+    <div class="text-description mt-1">
+      <span class="text-bold">{{t.translate('Виды и способы переработки:')}}</span>
+      {{ship.recycles}}
+    </div>
+    <div class="mt-1 text-bold text-description text-center">{{t.translate('Попробуйте демо ниже:')}}</div>
+
+    <div class="cx">
+      <img src="assets/double-arrow.svg" height="50">
+    </div>
+    <div class="cx cy mt-1 drawing">
+      <img-comparison-slider>
+        <img slot="before" [src]="ship.shipDrawImage" />
+        <img slot="after" [src]="ship.drawingImage" />
+      </img-comparison-slider>
+    </div>
+    <div class="cx cy mt-5">
+      <div class="cx cy px-20 container-button">
+        <a [href]="ship.bookletRU" target="_blank" class="button cursor-pointer cx cy text-booklet">{{t.translate('Скачать буклет')}}<br>RU</a>
+      </div>
+      <div class="cx cy px-20 container-button">
+        <a [href]="ship.bookletEN" target="_blank" class="button cursor-pointer cx cy text-booklet">{{t.translate('Скачать буклет')}}<br>EN</a>
+      </div>
+    </div>
+  </div>
+  <div (click)="exitFullScreen()" class="backdrop" [@openCloseBackdrop]="fullScreen ? 'open' : 'closed'"></div>
+</div>
+

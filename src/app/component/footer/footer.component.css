@@ -1,0 +1,55 @@
+.footer{
+  background-color: #00364c;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  height: 100%;
+}
+.direction-column{
+  flex-direction: column;
+}
+.px-10{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.icon{
+  color: #bdbec0;
+}
+.py-10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom-footer{
+  display: flex;
+  justify-content: center;
+}
+.text-footer{
+  color: #bdbec0;
+  font-family: GoogleSans-Regular,sans-serif;
+  font-size: 13px;
+}
+.text-footer-menu{
+  color: #bdbec0;
+  font-family: GoogleSans-Medium,sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.hover-text-footer:hover{
+  color: #929595;
+}
+.selected-menu{
+  color: #929595;
+}
+.qr{
+  position: absolute;
+}
+.is-partner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

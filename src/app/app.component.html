@@ -1,0 +1,9 @@
+<div class="app-header" [hidden]="isHidden('birthday')">
+  <app-navi></app-navi>
+</div>
+<div class="app-content" [@routeAnimations]="prepareRoute(outlet)" [class.min-width]="!device.isMobile()">
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>
+<div class="app-footer" [hidden]="isHidden('birthday')" [@footer]="prepareRoute(outlet)">
+  <app-footer></app-footer>
+</div>

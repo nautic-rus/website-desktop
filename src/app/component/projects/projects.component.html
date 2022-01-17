@@ -1,0 +1,128 @@
+<div>
+  <div class="cx cy">
+    <h1 class="heading-text">{{t.translate('Проекты')}}</h1>
+  </div>
+  <div class="color-line"></div>
+  <h3 class="mini-heading">{{t.translate('Эти суда спроектированы нашими партнёрами из Исландии')}}</h3>
+  <div class="color-line"></div>
+  <div class="projects">
+    <div class="project">
+      <div class="cursor-pointer" (mouseenter)="playVideo(9, player9)" (mouseleave)="stopVideo(9)">
+        <img alt="Рыболовное судно" class="project-thumb" [src]="projects[9].thumb"/>
+        <video (click)="openFull(player9, $event, projects[9].video, projects[9].fullVideo)" #player9 loop [ngStyle]="getVideoStyle(9)" class="project-video" [src]="projects[9].video"></video>
+      </div>
+      <div class="ship-name-project cursor-default">
+        {{projects[9].name}}
+      </div>
+      <div class="ship-text-project cursor-default">
+        {{projects[9].description}}
+      </div>
+      <div class="all-descr">
+        <div class="descr-head cursor-default">Main characteristic:</div>
+        <div class="descr-text cursor-default">Lenght: 54.75 м</div>
+        <div class="descr-text cursor-default">Moulded breadth: 13.5 м</div>
+        <div class="descr-text cursor-default">GT Hold Capacity: 750 PCS / 460 L tubes</div>
+        <div class="descr-text cursor-default">Engine: MAN 2040 kw</div>
+        <div class="descr-text cursor-default">Bollard Pull: 47 ton</div>
+      </div>
+
+    </div>
+    <div class="project" >
+      <div class="cursor-pointer" (mouseenter)="playVideo(10, player10)" (mouseleave)="stopVideo(10)">
+        <img alt="Рыболовное судно" class="project-thumb" [src]="projects[10].thumb"/>
+        <video (click)="openFull(player10, $event, projects[10].video, projects[10].fullVideo)"  #player10 loop [ngStyle]="getVideoStyle(10)" class="project-video" [src]="projects[10].video"></video>
+      </div>
+      <div class="ship-name-project cursor-default">
+        {{projects[10].name}}
+      </div>
+      <div class="ship-text-project text cursor-default">
+        {{projects[10].description}}
+      </div>
+      <div class="descr-head cursor-default">Main characteristic:</div>
+      <div class="descr-text cursor-default">Lenght: 62.54 m</div>
+      <div class="descr-text cursor-default">Moulded breadth: 13.5 m</div>
+      <div class="descr-text cursor-default">GT Hold Capacity: 750 PCS / 460 L tubes</div>
+      <div class="descr-text cursor-default">Engine: Yanmar 1620 kw</div>
+      <div class="descr-text cursor-default">Bollard Pull: 43 ton</div>
+    </div>
+    <div class="project" >
+      <div (mouseenter)="playVideo(11, player11)" (mouseleave)="stopVideo(11)">
+        <img alt="Рыболовное судно" class="project-thumb" [src]="projects[11].thumb"/>
+        <video (click)="openFull(player11, $event, projects[11].video, projects[11].fullVideo)" #player11 loop [ngStyle]="getVideoStyle(11)" class="project-video" [src]="projects[11].video"></video>
+      </div>
+      <div class="ship-name-project cursor-default">
+        {{projects[11].name}}
+      </div>
+      <div class="ship-text-project cursor-default">
+        {{projects[11].description}}
+      </div>
+      <div class="descr-head cursor-default">Main characteristic:</div>
+      <div class="descr-text cursor-default">Lenght: 62.54 m</div>
+      <div class="descr-text cursor-default">Moulded breadth: 13.5 m</div>
+      <div class="descr-text cursor-default">GT Hold Capacity: 750 PCS / 460 L tubes</div>
+      <div class="descr-text cursor-default">Engine: Yanmar 1620 kw</div>
+      <div class="descr-text cursor-default">Bollard Pull: 43 ton</div>
+    </div>
+  </div>
+  <div class="projects">
+    <div class="project" >
+      <div class="cursor-pointer" (mouseenter)="playVideo(12, player12)" (mouseleave)="stopVideo(12)">
+        <img alt="Рыболовное судно" class="project-thumb" [src]="projects[12].thumb"/>
+        <video (click)="openFull(player12, $event, projects[12].video, projects[12].fullVideo)" #player12 loop [ngStyle]="getVideoStyle(12)" class="project-video" [src]="projects[12].video"></video>
+      </div>
+      <div class="ship-name-project cursor-default">
+        {{projects[12].name}}
+      </div>
+      <div class="ship-text-project cursor-default">
+        {{projects[12].description}}
+      </div>
+      <div class="descr-head cursor-default">Main characteristic:</div>
+      <div class="descr-text cursor-default">Lenght: 62.54 m</div>
+      <div class="descr-text cursor-default">Moulded breadth: 13.5 m</div>
+      <div class="descr-text cursor-default">GT Hold Capacity: 750 PCS / 460 L tubes</div>
+      <div class="descr-text cursor-default">Engine: Yanmar 1620 kw</div>
+      <div class="descr-text cursor-default">Bollard Pull: 43 ton</div>
+    </div>
+    <div class="project" >
+      <div class="cursor-pointer" (mouseenter)="playVideo(13, player13)" (mouseleave)="stopVideo(13)">
+        <img alt="Рыболовное судно" class="project-thumb" [src]="projects[13].thumb"/>
+        <video (click)="openFull(player13, $event, projects[13].video, projects[13].fullVideo)" #player13 loop [ngStyle]="getVideoStyle(13)" class="project-video" [src]="projects[13].video"></video>
+      </div>
+      <div class="ship-name-project cursor-default">
+        {{projects[13].name}}
+      </div>
+      <div class="ship-text-project cursor-default">
+        {{projects[13].description}}
+      </div>
+      <div class="descr-head cursor-default">Main characteristic:</div>
+      <div class="descr-text cursor-default">Lenght: 54.75 m</div>
+      <div class="descr-text cursor-default">Moulded breadth: 13.5 m</div>
+      <div class="descr-text cursor-default">GT Hold Capacity: 750 PCS / 460 L tubes</div>
+      <div class="descr-text cursor-default">Engine: MAN 2040 kw</div>
+      <div class="descr-text cursor-default">Bollard Pull: 47 ton</div>
+    </div>
+    <div class="project">
+      <div class="cursor-pointer" (mouseenter)="playVideo(14, player14)" (mouseleave)="stopVideo(14)">
+        <img alt="Рыболовное судно" class="project-thumb" [src]="projects[14].thumb"/>
+        <video (click)="openFull(player14, $event, projects[14].video, projects[14].fullVideo)" #player14 loop [ngStyle]="getVideoStyle(14)" class="project-video" [src]="projects[14].video"></video>
+      </div>
+      <div class="ship-name-project cursor-default">
+        {{projects[14].name}}
+      </div>
+      <div class="ship-text-project cursor-default">
+        {{projects[14].description}}
+      </div>
+      <div class="descr-head cursor-default">Main characteristic:</div>
+      <div class="descr-text cursor-default">Lenght: 54.75 m</div>
+      <div class="descr-text cursor-default">Moulded breadth: 13.5 m</div>
+      <div class="descr-text cursor-default">GT Hold Capacity: 750 PCS / 460 L tubes</div>
+      <div class="descr-text cursor-default">Engine: MAN 2040 kw</div>
+      <div class="descr-text cursor-default">Bollard Pull: 47 ton</div>
+    </div>
+
+
+  </div>
+  <div (click)="exitFullScreen()" class="backdrop" [@openCloseBackdrop]="fullScreen ? 'open' : 'closed'"></div>
+
+</div>
+
