@@ -89,6 +89,7 @@ export class ContactsComponent implements OnInit {
         this.employees[++counter] = new Employee('Михаил', 'Лебедев', 'mlebedev.jpg', 'lebedev@nautic-rus.ru', 'Корпусный отдел', 'HULL');
         this.employees[++counter] = new Employee('Роман', 'Дегоев', 'degoev.jpg', 'degoev@nautic-rus.ru', 'Корпусный отдел', 'HULL');
         this.employees[++counter] = new Employee('Андрей', 'Голодов', 'golodov.jpg', 'golodov@nautic-rus.ru', 'Корпусный отдел', 'HULL');
+        this.employees[++counter] = new Employee('Александр', 'Статинов', 'statinov.jpg', 'statinov@nautic-rus.ru', 'Корпусный отдел', 'HULL');
 
         this.employees[++counter] = new Employee('Богдан', 'Исаев', 'isaev.jpg', 'isaev@nautic-rus.ru', 'IT-отдел', 'IT');
         this.employees[++counter] = new Employee('Юлия', 'Исаева', 'stropilova.jpg', 'stropilova@nautic-rus.ru', 'IT-отдел', 'IT');
@@ -156,6 +157,8 @@ export class ContactsComponent implements OnInit {
       this.employees[++counter] = new Employee('Mihail', 'Lebedev', 'mlebedev.jpg', 'lebedev@nautic-rus.ru', 'Hull department', 'HULL');
       this.employees[++counter] = new Employee('Roman', 'Degoev', 'degoev.jpg', 'degoev@nautic-rus.ru', 'Hull department', 'HULL');
       this.employees[++counter] = new Employee('Andrei', 'Golodov', 'golodov.jpg', 'golodov@nautic-rus.ru', 'Hull department', 'HULL');
+      this.employees[++counter] = new Employee('Aleksandr', 'Statinov', 'statinov.jpg', 'statinov@nautic-rus.ru', 'Hull department', 'HULL');
+
 
       this.employees[++counter] = new Employee('Bogdan', 'Isaev', 'isaev.jpg', 'isaev@nautic-rus.ru', 'IT', 'IT');
       this.employees[++counter] = new Employee('Iuliia', 'Isaeva', 'stropilova.jpg', 'stropilova@nautic-rus.ru', 'IT', 'IT');
