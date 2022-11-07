@@ -131,7 +131,7 @@ export class TranslationService {
           case 'STABILITY': return 'ОСТОЙЧИВОСТЬ';
           case 'HULL': return 'КОРПУС';
           case 'IT': return 'IT-ОТДЕЛ';
-          case 'PIPPING': return 'СИСТЕМЫ';
+          case 'SYSTEMS': return 'СИСТЕМЫ';
           default: return value;
         }
       }
