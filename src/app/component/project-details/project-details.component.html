@@ -61,7 +61,7 @@
         <img slot="after" [src]="ship.drawingImage" />
       </img-comparison-slider>
     </div>
-    <div class="cx cy mt-5">
+    <div *ngIf="shipIndex != '115'" class="cx cy mt-5">
       <div class="cx cy px-20 container-button">
         <a [href]="ship.bookletRU" target="_blank" class="button cursor-pointer cx cy text-booklet">{{t.translate('Скачать буклет')}}<br>RU</a>
       </div>

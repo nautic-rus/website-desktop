@@ -11,7 +11,7 @@
       <img src="assets/down-arrow.svg" height="36">
     </div>
     <div class="projects">
-      <div (click)="openProject('87')" class="project">
+      <div (click)="openProject('115')" class="project">
         <div class="cursor-pointer" (mouseenter)="playVideo(0, player0)" (mouseleave)="stopVideo(0)">
           <img class="project-thumb" [src]="projects[0].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
           <video #player0 loop [ngStyle]="getVideoStyle(0)" class="project-video" [src]="projects[0].video"></video>
@@ -24,16 +24,16 @@
         </div>
         <div class="details cx cy">
           <div class="cy pl-20">
-            <div class="button cx cy cursor-pointer" (click)="openProject('87')">{{t.translate('Подробнее...')}}</div>
+            <div class="button cx cy cursor-pointer" (click)="openProject('115')">{{t.translate('Подробнее...')}}</div>
           </div>
         </div>
       </div>
-      <div (click)="openProject('82')" class="project cursor-pointer">
-        <div (mouseenter)="playVideo(1, player1)" (mouseleave)="stopVideo(1)">
+      <div (click)="openProject('87')" class="project">
+        <div class="cursor-pointer" (mouseenter)="playVideo(1, player1)" (mouseleave)="stopVideo(1)">
           <img class="project-thumb" [src]="projects[1].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
           <video #player1 loop [ngStyle]="getVideoStyle(1)" class="project-video" [src]="projects[1].video"></video>
         </div>
-        <h2 class="ship-name-home mt-1 cursor-default">
+        <h2 class="ship-name-home cursor-default mt-1">
           {{projects[1].name}}
         </h2>
         <div class="ship-text cursor-default">
@@ -41,11 +41,11 @@
         </div>
         <div class="details cx cy">
           <div class="cy pl-20">
-            <div class="button cx cy cursor-pointer" (click)="openProject('82')">{{t.translate('Подробнее...')}}</div>
+            <div class="button cx cy cursor-pointer" (click)="openProject('87')">{{t.translate('Подробнее...')}}</div>
           </div>
         </div>
       </div>
-      <div (click)="openProject('63')" class="project cursor-pointer">
+      <div (click)="openProject('82')" class="project cursor-pointer">
         <div (mouseenter)="playVideo(2, player2)" (mouseleave)="stopVideo(2)">
           <img class="project-thumb" [src]="projects[2].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
           <video #player2 loop [ngStyle]="getVideoStyle(2)" class="project-video" [src]="projects[2].video"></video>
@@ -58,13 +58,13 @@
         </div>
         <div class="details cx cy">
           <div class="cy pl-20">
-            <div class="button cx cy cursor-pointer" (click)="openProject('63')">{{t.translate('Подробнее...')}}</div>
+            <div class="button cx cy cursor-pointer" (click)="openProject('82')">{{t.translate('Подробнее...')}}</div>
           </div>
         </div>
       </div>
     </div>
     <div class="projects">
-      <div (click)="openProject('60')" class="project cursor-pointer">
+      <div (click)="openProject('63')" class="project cursor-pointer">
         <div (mouseenter)="playVideo(3, player3)" (mouseleave)="stopVideo(3)">
           <img class="project-thumb" [src]="projects[3].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
           <video #player3 loop [ngStyle]="getVideoStyle(3)" class="project-video" [src]="projects[3].video"></video>
@@ -77,11 +77,11 @@
         </div>
         <div class="details cx cy">
           <div class="cy pl-20">
-            <div class="button cx cy cursor-pointer" (click)="openProject('60')">{{t.translate('Подробнее...')}}</div>
+            <div class="button cx cy cursor-pointer" (click)="openProject('63')">{{t.translate('Подробнее...')}}</div>
           </div>
         </div>
       </div>
-      <div (click)="openProject('48')" class="project cursor-pointer">
+      <div (click)="openProject('60')" class="project cursor-pointer">
         <div (mouseenter)="playVideo(4, player4)" (mouseleave)="stopVideo(4)">
           <img class="project-thumb" [src]="projects[4].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
           <video #player4 loop [ngStyle]="getVideoStyle(4)" class="project-video" [src]="projects[4].video"></video>
@@ -94,11 +94,11 @@
         </div>
         <div class="details cx cy">
           <div class="cy pl-20">
-            <div class="button cx cy cursor-pointer" (click)="openProject('48')">{{t.translate('Подробнее...')}}</div>
+            <div class="button cx cy cursor-pointer" (click)="openProject('60')">{{t.translate('Подробнее...')}}</div>
           </div>
         </div>
       </div>
-      <div (click)="openProject('30')" class="project cursor-pointer">
+      <div (click)="openProject('48')" class="project cursor-pointer">
         <div (mouseenter)="playVideo(5, player5)" (mouseleave)="stopVideo(5)">
           <img class="project-thumb" [src]="projects[5].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
           <video #player5 loop [ngStyle]="getVideoStyle(5)" class="project-video" [src]="projects[5].video"></video>
@@ -111,13 +111,13 @@
         </div>
         <div class="details cx cy">
           <div class="cy pl-20">
-            <div class="button cx cy cursor-pointer" (click)="openProject('30')">{{t.translate('Подробнее...')}}</div>
+            <div class="button cx cy cursor-pointer" (click)="openProject('48')">{{t.translate('Подробнее...')}}</div>
           </div>
         </div>
       </div>
     </div>
     <div class="projects">
-      <div (click)="openProject('24')" class="project cursor-pointer">
+      <div (click)="openProject('30')" class="project cursor-pointer">
         <div (mouseenter)="playVideo(6, player6)" (mouseleave)="stopVideo(6)">
           <img class="project-thumb" [src]="projects[6].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
           <video #player6 loop [ngStyle]="getVideoStyle(6)" class="project-video" [src]="projects[6].video"></video>
@@ -130,11 +130,11 @@
         </div>
         <div class="details cx cy">
           <div class="cy pl-20">
-            <div class="button cx cy cursor-pointer" (click)="openProject('24')">{{t.translate('Подробнее...')}}</div>
+            <div class="button cx cy cursor-pointer" (click)="openProject('30')">{{t.translate('Подробнее...')}}</div>
           </div>
         </div>
       </div>
-      <div (click)="openProject('20')" class="project cursor-pointer">
+      <div (click)="openProject('24')" class="project cursor-pointer">
         <div (mouseenter)="playVideo(7, player7)" (mouseleave)="stopVideo(7)">
           <img class="project-thumb" [src]="projects[7].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
           <video #player7 loop [ngStyle]="getVideoStyle(7)" class="project-video" [src]="projects[7].video"></video>
@@ -147,11 +147,11 @@
         </div>
         <div class="details cx cy">
           <div class="cy pl-20">
-            <div class="button cx cy cursor-pointer" (click)="openProject('20')">{{t.translate('Подробнее...')}}</div>
+            <div class="button cx cy cursor-pointer" (click)="openProject('24')">{{t.translate('Подробнее...')}}</div>
           </div>
         </div>
       </div>
-      <div (click)="openProject('15')" class="project cursor-pointer">
+      <div (click)="openProject('20')" class="project cursor-pointer">
         <div (mouseenter)="playVideo(8, player8)" (mouseleave)="stopVideo(8)">
           <img class="project-thumb" [src]="projects[8].thumb" alt="Рыболовный траулер" title="Проектирование судов"/>
           <video #player8 loop [ngStyle]="getVideoStyle(8)" class="project-video" [src]="projects[8].video"></video>
@@ -164,7 +164,7 @@
         </div>
         <div class="details cx cy">
           <div class="cy pl-20">
-            <div class="button cx cy cursor-pointer" (click)="openProject('15')">{{t.translate('Подробнее...')}}</div>
+            <div class="button cx cy cursor-pointer" (click)="openProject('20')">{{t.translate('Подробнее...')}}</div>
           </div>
         </div>
       </div>
