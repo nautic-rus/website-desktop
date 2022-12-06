@@ -56,7 +56,7 @@ export class ContactsComponent implements OnInit {
         this.employees[++counter] = new Employee('Александр', 'Александров', 'aleksandrov.jpg', 'aleksandrov@nautic-rus.ru', 'Отдел дизайна', 'DESIGN');
 
         this.employees[++counter] = new Employee('Никита', 'Набоков', 'nabokov.jpg', 'nabokov@nautic-rus.ru', 'Отдел устройств', 'DEVICES', true);
-        // this.employees[++counter] = new Employee('Игорь', 'Зубров', 'zubrov.jpg', 'zubrov@nautic-rus.ru', 'Отдел устройств', 'DEVICES');
+        this.employees[++counter] = new Employee('Денис', 'Литвинов', 'litvinov.jpg', 'litvinov@nautic-rus.ru', 'Отдел устройств', 'DEVICES');
 
         this.employees[++counter] = new Employee('Ростислав', 'Мельников', 'melnikov.jpg', 'melnikov@nautic-rus.ru', 'Отдел достройки', 'OUTFITTING', true);
         this.employees[++counter] = new Employee('Сергей', 'Кораблев', 'korablev.jpg', 'korablev@nautic-rus.ru', 'Отдел достройки', 'OUTFITTING');
@@ -85,7 +85,7 @@ export class ContactsComponent implements OnInit {
         this.employees[++counter] = new Employee('Роман', 'Дегоев', 'degoev.jpg', 'degoev@nautic-rus.ru', 'Корпусный отдел', 'HULL');
         this.employees[++counter] = new Employee('Андрей', 'Голодов', '2.jpg', 'golodov@nautic-rus.ru', 'Корпусный отдел', 'HULL');
         this.employees[++counter] = new Employee('Игорь', 'Николаев', 'nikolaev.jpg', 'nikolaev@nautic-rus.ru', 'Корпусный отдел', 'HULL');
-        this.employees[++counter] = new Employee('Евгений', 'Кривовногов', 'krivonogov.jpg', 'krivonogov@nautic-rus.ru', 'Корпусный отдел', 'HULL');
+        this.employees[++counter] = new Employee('Евгений', 'Кривоногов', 'krivonogov.jpg', 'krivonogov@nautic-rus.ru', 'Корпусный отдел', 'HULL');
 
         this.employees[++counter] = new Employee('Богдан', 'Исаев', 'isaev3.jpg', 'isaev@nautic-rus.ru', 'IT-отдел', 'IT');
         this.employees[++counter] = new Employee('Юлия', 'Исаева', 'isaeva1.png', 'stropilova@nautic-rus.ru', 'IT-отдел', 'IT');
@@ -117,7 +117,7 @@ export class ContactsComponent implements OnInit {
       this.employees[++counter] = new Employee('Aleksandr', 'Aleksandrov', 'aleksandrov.jpg', 'aleksandrov@nautic-rus.ru', 'Design department', 'DESIGN');
 
       this.employees[++counter] = new Employee('Nikita', 'Nabokov', 'nabokov.jpg', 'nabokov@nautic-rus.ru', 'Devices department', 'DEVICES', true);
-      // this.employees[++counter] = new Employee('Igor', 'Zubrov', 'zubrov.jpg', 'zubrov@nautic-rus.ru', 'Devices department', 'DEVICES');
+      this.employees[++counter] = new Employee('Denis', 'Litvinov', 'litvinov.jpg', 'litvinov@nautic-rus.ru', 'Devices department', 'DEVICES');
 
       this.employees[++counter] = new Employee('Melnikov', 'Rostislav', 'melnikov.jpg', 'melnikov@nautic-rus.ru', 'Outfitting department', 'OUTFITTING', true);
       this.employees[++counter] = new Employee('Sergei', 'Korablev', 'korablev.jpg', 'korablev@nautic-rus.ru', 'Outfitting department', 'OUTFITTING');
