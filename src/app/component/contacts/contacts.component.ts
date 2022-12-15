@@ -148,7 +148,7 @@ export class ContactsComponent implements OnInit {
       this.employees[++counter] = new Employee('Igor', 'Nikolaev', 'nikolaev.jpg', 'nikolaev@nautic-rus.ru', 'Hull department', 'HULL');
       this.employees[++counter] = new Employee('Evgenii', 'Krivonogov', 'krivonogov.jpg', 'krivonogov@nautic-rus.ru', 'Hull department', 'HULL');
 
-      this.employees[++counter] = new Employee('Bogdan', 'Isaev', 'isaev.jpg', 'isaev@nautic-rus.ru', 'IT department', 'IT');
+      this.employees[++counter] = new Employee('Bogdan', 'Isaev', 'isaev3.jpg', 'isaev@nautic-rus.ru', 'IT department', 'IT');
       this.employees[++counter] = new Employee('Iuliia', 'Isaeva', 'isaeva1.png', 'stropilova@nautic-rus.ru', 'IT department', 'IT');
       this.employees[++counter] = new Employee('Anton', 'Mamonov', 'mamonov.jpg', 'mamonov@nautic-rus.ru', 'IT department', 'IT');
 
