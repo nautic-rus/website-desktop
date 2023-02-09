@@ -52,7 +52,6 @@ export class ContactsComponent implements OnInit {
         this.employees[++counter] = new Employee('Анастасия', 'Коробова', '3.jpg', 'kopeiykina@nautic-rus.ru', 'Главный бухгалтер', 'FINANCE');
 
         this.employees[++counter] = new Employee('Алина', 'Дмитриева', 'dmitrieva.jpg', 'dmitrieva@nautic-rus.ru', 'Отдел дизайна', 'DESIGN', true);
-        this.employees[++counter] = new Employee('Анастасия', 'Венгерова', 'vengerova.jpg', 'galyant@nautic-rus.ru', 'Отдел дизайна', 'DESIGN');
         this.employees[++counter] = new Employee('Александр', 'Александров', 'aleksandrov.jpg', 'aleksandrov@nautic-rus.ru', 'Отдел дизайна', 'DESIGN');
 
         this.employees[++counter] = new Employee('Никита', 'Набоков', 'nabokov.jpg', 'nabokov@nautic-rus.ru', 'Отдел устройств', 'DEVICES', true);
@@ -71,7 +70,6 @@ export class ContactsComponent implements OnInit {
         this.employees[++counter] = new Employee('Сергей', 'Силиверстов', 'siliverstov.jpg', 'siliverstov@nautic-rus.ru', 'Электротехнический отдел', 'ELECTRICAL');
         this.employees[++counter] = new Employee('Владислав', 'Солуянов', 'soluyanov.jpg', 'soluyanov@nautic-rus.ru', 'Электротехнический отдел', 'ELECTRICAL');
         this.employees[++counter] = new Employee('Михаил', 'Ивашов', 'ivashov.jpg', 'ivashov@nautic-rus.ru', 'Электротехнический отдел', 'ELECTRICAL');
-        this.employees[++counter] = new Employee('Алла', 'Смирнова', '5.jpg', 'smirnova@nautic-rus.ru', 'Электротехнический отдел', 'ELECTRICAL');
         this.employees[++counter] = new Employee('Николай', 'Подлесных', 'podlesnih.jpg', 'podlesnyh@nautic-rus.ru', 'Электротехнический отдел', 'ELECTRICAL');
 
 
@@ -83,7 +81,6 @@ export class ContactsComponent implements OnInit {
         this.employees[++counter] = new Employee('Михаил', 'Загуменнов', 'zagumennov.jpg', 'zagumenov@nautic-rus.ru', 'Корпусный отдел', 'HULL');
         this.employees[++counter] = new Employee('Михаил', 'Лебедев', 'mlebedev.jpg', 'lebedev@nautic-rus.ru', 'Корпусный отдел', 'HULL');
         this.employees[++counter] = new Employee('Роман', 'Дегоев', 'degoev.jpg', 'degoev@nautic-rus.ru', 'Корпусный отдел', 'HULL');
-        this.employees[++counter] = new Employee('Андрей', 'Голодов', '2.jpg', 'golodov@nautic-rus.ru', 'Корпусный отдел', 'HULL');
         this.employees[++counter] = new Employee('Игорь', 'Николаев', 'nikolaev.jpg', 'nikolaev@nautic-rus.ru', 'Корпусный отдел', 'HULL');
         this.employees[++counter] = new Employee('Евгений', 'Кривоногов', 'krivonogov.jpg', 'krivonogov@nautic-rus.ru', 'Корпусный отдел', 'HULL');
 
@@ -113,13 +110,12 @@ export class ContactsComponent implements OnInit {
       this.employees[++counter] = new Employee('Anastasiia', 'Korobova', '3.jpg', 'kopeiykina@nautic-rus.ru', 'Chief accountant', 'FINANCE');
 
       this.employees[++counter] = new Employee('Alina', 'Dmitrieva', 'dmitrieva.jpg', 'dmitrieva@nautic-rus.ru', 'Design department', 'DESIGN', true);
-      this.employees[++counter] = new Employee('Anastasiia', 'Vengerova', 'vengerova.jpg', 'galyant@nautic-rus.ru', 'Design department', 'DESIGN');
       this.employees[++counter] = new Employee('Aleksandr', 'Aleksandrov', 'aleksandrov.jpg', 'aleksandrov@nautic-rus.ru', 'Design department', 'DESIGN');
 
       this.employees[++counter] = new Employee('Nikita', 'Nabokov', 'nabokov.jpg', 'nabokov@nautic-rus.ru', 'Devices department', 'DEVICES', true);
       this.employees[++counter] = new Employee('Denis', 'Litvinov', 'litvinov.jpg', 'litvinov@nautic-rus.ru', 'Devices department', 'DEVICES');
 
-      this.employees[++counter] = new Employee('Melnikov', 'Rostislav', 'melnikov.jpg', 'melnikov@nautic-rus.ru', 'Outfitting department', 'OUTFITTING', true);
+      this.employees[++counter] = new Employee('Rostislav', 'Melnikov', 'melnikov.jpg', 'melnikov@nautic-rus.ru', 'Outfitting department', 'OUTFITTING', true);
       this.employees[++counter] = new Employee('Sergei', 'Korablev', 'korablev.jpg', 'korablev@nautic-rus.ru', 'Outfitting department', 'OUTFITTING');
       this.employees[++counter] = new Employee('Elena', 'Yakovleva', 'yakovleva.jpg', 'yakovleva@nautic-rus.ru', 'Outfitting department', 'OUTFITTING');
       this.employees[++counter] = new Employee('Georgiy', 'Belorusskiy', '1.jpg', 'belorusskiy@nautic-rus.ru', 'Outfitting department', 'OUTFITTING');
@@ -133,7 +129,6 @@ export class ContactsComponent implements OnInit {
       this.employees[++counter] = new Employee('Sergei', 'Siliverstov', 'siliverstov.jpg', 'siliverstov@nautic-rus.ru', 'Electrical department', 'ELECTRICAL');
       this.employees[++counter] = new Employee('Vladislav', 'Soluyanov', 'soluyanov.jpg', 'soluyanov@nautic-rus.ru', 'Electrical department', 'ELECTRICAL');
       this.employees[++counter] = new Employee('Mihail', 'Ivashov', 'ivashov.jpg', 'ivashov@nautic-rus.ru', 'Electrical department', 'ELECTRICAL');
-      this.employees[++counter] = new Employee('Alla', 'Smirnova', '5.jpg', 'smirnova@nautic-rus.ru', 'Electrical department', 'ELECTRICAL');
       this.employees[++counter] = new Employee('Nikolai', 'Podlesnyh', 'podlesnih.jpg', 'podlesnyh@nautic-rus.ru', 'Electrical department', 'ELECTRICAL');
 
       this.employees[++counter] = new Employee('Nikolai', 'Klestov', 'klestov.jpg', 'klestov@nautic-rus.ru', 'Hull department', 'HULL', true);
@@ -144,7 +139,6 @@ export class ContactsComponent implements OnInit {
       this.employees[++counter] = new Employee('Mihail', 'Zagumennov', 'zagumennov.jpg', 'zagumenov@nautic-rus.ru', 'Hull department', 'HULL');
       this.employees[++counter] = new Employee('Mihail', 'Lebedev', 'mlebedev.jpg', 'lebedev@nautic-rus.ru', 'Hull department', 'HULL');
       this.employees[++counter] = new Employee('Roman', 'Degoev', 'degoev.jpg', 'degoev@nautic-rus.ru', 'Hull department', 'HULL');
-      this.employees[++counter] = new Employee('Andrei', 'Golodov', '2.jpg', 'golodov@nautic-rus.ru', 'Hull department', 'HULL');
       this.employees[++counter] = new Employee('Igor', 'Nikolaev', 'nikolaev.jpg', 'nikolaev@nautic-rus.ru', 'Hull department', 'HULL');
       this.employees[++counter] = new Employee('Evgenii', 'Krivonogov', 'krivonogov.jpg', 'krivonogov@nautic-rus.ru', 'Hull department', 'HULL');
 
