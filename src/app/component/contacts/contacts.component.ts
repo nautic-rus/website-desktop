@@ -91,7 +91,6 @@ export class ContactsComponent implements OnInit {
         this.employees[++counter] = new Employee('Евгений', 'Голенищев', 'golenichev.jpg', 'golenishchev@nautic-rus.ru', 'Системный отдел', 'SYSTEMS', true);
         this.employees[++counter] = new Employee('Иван', 'Миклухин', 'mikluhin.jpg', 'miklukhin@nautic-rus.ru', 'Системный отдел', 'SYSTEMS');
         this.employees[++counter] = new Employee('Максим', 'Зотиков', 'zotikov.jpg', 'zotikov@nautic-rus.ru', 'Системный отдел', 'SYSTEMS');
-        this.employees[++counter] = new Employee('Сергей', 'Шабанов', 'shabanov.jpg', 'shabanov@nautic-rus.ru', 'Системный отдел', 'SYSTEMS');
         this.employees[++counter] = new Employee('Дмитрий', 'Козинец', '4.jpg', 'kozinec@nautic-rus.ru', 'Системный отдел', 'SYSTEMS');
         this.employees[++counter] = new Employee('Дмитрий', 'Ситников', 'sitnikov.jpg', 'sitnikov@nautic-rus.ru', 'Системный отдел', 'SYSTEMS');
 
@@ -149,7 +148,6 @@ export class ContactsComponent implements OnInit {
       this.employees[++counter] = new Employee('Evgenii', 'Golenishchev', 'golenichev.jpg', 'golenishchev@nautic-rus.ru', 'Systems department', 'SYSTEMS', true);
       this.employees[++counter] = new Employee('Ivan', 'Mikluhin', 'mikluhin.jpg', 'miklukhin@nautic-rus.ru', 'Systems department', 'SYSTEMS');
       this.employees[++counter] = new Employee('Maksim', 'Zotikov', 'zotikov.jpg', 'zotikov@nautic-rus.ru', 'Systems department', 'SYSTEMS');
-      this.employees[++counter] = new Employee('Sergei', 'Shabanov', 'shabanov.jpg', 'shabanov@nautic-rus.ru', 'Systems department', 'SYSTEMS');
       this.employees[++counter] = new Employee('Dmitrii', 'Kozinec', '4.jpg', 'kozinec@nautic-rus.ru', 'Systems department', 'SYSTEMS');
       this.employees[++counter] = new Employee('Dmitrii', 'Sitnikov', 'sitnikov.jpg', 'sitnikov@nautic-rus.ru', 'Systems department', 'SYSTEMS');
 
