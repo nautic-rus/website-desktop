@@ -9,7 +9,8 @@ import {DeviceDetectorService} from 'ngx-device-detector';
   styleUrls: ['./certs.component.css']
 })
 export class CertsComponent implements OnInit {
-  certUrl = 'assets/certs/rusregistercert.png';
+  certUrl = 'assets/certs/rusregistercert-1.png';
+  certUrl1 = 'assets/certs/rusregistercert-2.png';
   constructor(private lb: Lightbox, public t: TranslationService, public device: DeviceDetectorService) { }
 
   ngOnInit(): void {
