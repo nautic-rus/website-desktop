@@ -42,7 +42,7 @@ export class VacancyManagerService {
       this.vacancies[vacancyCounter].indexPath = vacancyCounter;
 
       vacancyCounter += 1;
-      this.vacancies[vacancyCounter] = new Vacant('Инженер-конструктор по корпусу');
+      this.vacancies[vacancyCounter] = new Vacant('Инженер-конструктор по корпусу на верфь');
       this.vacancies[vacancyCounter].salary = 'от 100 000₽ на руки';
       this.vacancies[vacancyCounter].experience = 'от 3 лет';
       this.vacancies[vacancyCounter].responsibilities = ['— Проектирование корпусных конструкций рыболовных судов;', '— Разработка документации на стадии ПДСП, РКД, ЭД и ПСД;', '— Моделирование корпусных конструкций в САПР(Foran).'];
@@ -54,6 +54,17 @@ export class VacancyManagerService {
 
       vacancyCounter += 1;
       this.vacancies[vacancyCounter] = new Vacant('Инженер-конструктор отдела судовых устройств');
+      this.vacancies[vacancyCounter].salary = 'от 80 000₽ на руки';
+      this.vacancies[vacancyCounter].experience = 'от 1 года';
+      this.vacancies[vacancyCounter].responsibilities = ['— Подбор и размещение судовых устройств в соответствии с параметрами судна;', '— Выполнение расчетов подтверждающих требуемые характеристики оборудования;', '— Разработка сборочных и детальных чертежей судовых устройств;', '— Составление контрактных спецификаций и технических требований;', '— Согласование поставленного оборудования с надзорными органами;', '— Разработка эксплуатационной и приемо-сдаточной документации;'];
+      this.vacancies[vacancyCounter].requirements = ['— Опыт самостоятельной разработки судового или нестандартного оборудования;', '— Современный подход к проектирование конструкций;', '— Уверенное владение AutoCAD, Solid, желательно Foran;', '— Коммуникабельность;', '— Ответственность;', '— Стрессоустойчивость.'];
+      this.vacancies[vacancyCounter].conditions = ['— График работы 5/2;', '— Трудоустройство по Трудовому Кодексу, «белая» заработная плата;', '— Оплачиваемый отпуск 28 календарных дней, ДМС;', '— Испытательный срок 3 мес;', '— Интересные задачи, возможность профессионального развития и карьерного роста;', '— Гибкий график работы;'];
+      this.vacancies[vacancyCounter].office = '— Комфортный офис рядом с ';
+      this.vacancies[vacancyCounter].metro = 'м. Автово.';
+      this.vacancies[vacancyCounter].indexPath = vacancyCounter;
+
+      vacancyCounter += 1;
+      this.vacancies[vacancyCounter] = new Vacant('Инженер-конструктор отдела судовых устройств на верфь');
       this.vacancies[vacancyCounter].salary = 'от 100 000₽ на руки';
       this.vacancies[vacancyCounter].experience = 'от 1 года';
       this.vacancies[vacancyCounter].responsibilities = ['— Подбор и размещение судовых устройств в соответствии с параметрами судна;', '— Выполнение расчетов подтверждающих требуемые характеристики оборудования;', '— Разработка сборочных и детальных чертежей судовых устройств;', '— Составление контрактных спецификаций и технических требований;', '— Согласование поставленного оборудования с надзорными органами;', '— Разработка эксплуатационной и приемо-сдаточной документации;'];
@@ -120,7 +131,7 @@ export class VacancyManagerService {
       this.vacancies[vacancyCounter].indexPath = vacancyCounter;
 
       vacancyCounter += 1;
-      this.vacancies[vacancyCounter] = new Vacant('Design engineer for the hull');
+      this.vacancies[vacancyCounter] = new Vacant('Design engineer for the hull at the shipyard');
       this.vacancies[vacancyCounter].salary = 'from 100,000₽';
       this.vacancies[vacancyCounter].experience = 'more than 3 years';
       this.vacancies[vacancyCounter].responsibilities = ['— Design of hull structures of fishing vessels;', '— Development of documentation at the stage of SDSP, RKD, ED and PSD;', '— Modeling of hull structures in CAD (Foran).'];
@@ -134,7 +145,18 @@ export class VacancyManagerService {
       this.vacancies[vacancyCounter] = new Vacant('Design Engineer of the Devices Department');
       this.vacancies[vacancyCounter].salary = 'from 100,000₽';
       this.vacancies[vacancyCounter].experience = 'more than 1 years';
-      this.vacancies[vacancyCounter].responsibilities = ['— Selection and placement of ship\'s devices in accordance with the parameters of the vessel;', '— Performing calculations confirming the required characteristics of the equipment;', '— Development of assembly and detailed drawings of ship devices;', '— Drafting of contract specifications and technical requirements;', '— Coordination of the supplied equipment with the supervisory authorities;', '— Development of operational and acceptance documentation;'];
+      this.vacancies[vacancyCounter].responsibilities = ['— Selection and placement of ships devices in accordance with the parameters of the vessel;', '— Performing calculations confirming the required characteristics of the equipment;', '— Development of assembly and detailed drawings of ship devices;', '— Drafting of contract specifications and technical requirements;', '— Coordination of the supplied equipment with the supervisory authorities;', '— Development of operational and acceptance documentation;'];
+      this.vacancies[vacancyCounter].requirements = ['— Опыт самостоятельной разработки судового или нестандартного оборудования;', '— Современный подход к проектирование конструкций;', '— Уверенное владение AutoCAD, Solid, желательно Foran;', '— Коммуникабельность;', '— Ответственность;', '— Стрессоустойчивость.'];
+      this.vacancies[vacancyCounter].conditions = ['— Work schedule 5/2;', '— Employment under the Labor Code, "white" wages;', '— Paid leave of 28 calendar days, VMI;', '— Probation period of 3 months;', '— Interesting tasks, the possibility of professional development and career growth;', '— Flexible working hours;'];
+      this.vacancies[vacancyCounter].office = '— Comfortable office near ';
+      this.vacancies[vacancyCounter].metro = 'Avtovo metro station.';
+      this.vacancies[vacancyCounter].indexPath = vacancyCounter;
+
+      vacancyCounter += 1;
+      this.vacancies[vacancyCounter] = new Vacant('Design Engineer of the Devices Department at the shipyard');
+      this.vacancies[vacancyCounter].salary = 'from 100,000₽';
+      this.vacancies[vacancyCounter].experience = 'more than 1 years';
+      this.vacancies[vacancyCounter].responsibilities = ['— Selection and placement of ships devices in accordance with the parameters of the vessel;', '— Performing calculations confirming the required characteristics of the equipment;', '— Development of assembly and detailed drawings of ship devices;', '— Drafting of contract specifications and technical requirements;', '— Coordination of the supplied equipment with the supervisory authorities;', '— Development of operational and acceptance documentation;'];
       this.vacancies[vacancyCounter].requirements = ['— Опыт самостоятельной разработки судового или нестандартного оборудования;', '— Современный подход к проектирование конструкций;', '— Уверенное владение AutoCAD, Solid, желательно Foran;', '— Коммуникабельность;', '— Ответственность;', '— Стрессоустойчивость.'];
       this.vacancies[vacancyCounter].conditions = ['— Work schedule 5/2;', '— Employment under the Labor Code, "white" wages;', '— Paid leave of 28 calendar days, VMI;', '— Probation period of 3 months;', '— Interesting tasks, the possibility of professional development and career growth;', '— Flexible working hours;'];
       this.vacancies[vacancyCounter].office = '— Work at the PELLA-STAPEL shipyard ';

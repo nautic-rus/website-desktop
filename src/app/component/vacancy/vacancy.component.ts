@@ -22,8 +22,9 @@ export class VacancyComponent implements OnInit {
   vacanciesRu: Vacancy[] = [
     {name: 'Ведущий инженер-конструктор-электрик', salary: 'от 80000 на руки', experience: 'Опыт работы более 6 лет', city: 'г. Санкт-Петербург', metro: 'Автово'},
     {name: 'Инженер-конструктор по корпусу', salary: 'от 80000 на руки', experience: 'Опыт работы от 3 лет', city: 'г. Санкт-Петербург', metro: 'Автово'},
-    {name: 'Инженер-конструктор по корпусу', salary: 'от 100000 на руки', experience: 'Опыт работы от 3 лет', city: 'г. Отрадное (ЛО)', metro: 'Рыбацкое'},
-    {name: 'Инженер-конструктор отдела судовых устройств', salary: 'от 100000 на руки', experience: 'Опыт работы от 1 года', city: 'г. Санкт-Петербург', metro: 'Рыбацкое'},
+    {name: 'Инженер-конструктор по корпусу на верфь', salary: 'от 100000 на руки', experience: 'Опыт работы от 3 лет', city: 'г. Отрадное (ЛО)', metro: 'Рыбацкое'},
+    {name: 'Инженер-конструктор отдела судовых устройств', salary: 'от 100000 на руки', experience: 'Опыт работы от 1 года', city: 'г. Санкт-Петербург', metro: 'Автово'},
+    {name: 'Инженер-конструктор отдела судовых устройств на верфь', salary: 'от 100000 на руки', experience: 'Опыт работы от 1 года', city: 'г. Отрадное (ЛО)', metro: 'Рыбацкое'},
     {name: 'Ведущий инженер расчетчик корпус', salary: 'от 120000 на руки', experience: 'Опыт работы от 3 лет', city: 'г. Санкт-Петербург', metro: 'Автово'},
     {name: 'Инженер-конструктор судовых систем и систем энергетических установок', salary: 'от 80000 на руки', experience: 'Опыт работы от 1 года', city: 'г. Санкт-Петербург', metro: 'Автово'},
     {name: 'Инженер-конструктор судовых систем и систем энергетических установок', salary: 'от 100000 на руки', experience: 'Опыт работы от 1 года', city: 'г. Отрадное (ЛО)', metro: 'Рыбацкое'},
@@ -31,8 +32,9 @@ export class VacancyComponent implements OnInit {
   vacanciesEn: Vacancy[] = [
     {name: 'Leading design engineer-electrician', salary: 'от 80000 на руки', experience: 'Work experience of more than 6 years', city: 'St. Petersburg', metro: 'Avtovo'},
     {name: 'Design engineer for the hull', salary: 'от 80000 на руки', experience: 'Work experience of more than 3 years', city: 'St. Petersburg', metro: 'Avtovo'},
-    {name: 'Design engineer for the hull', salary: 'от 100000 на руки', experience: 'Work experience of more than 3 years', city: 'Otradnoye', metro: 'Rybatskoe'},
-    {name: 'Design Engineer of the Devices Department', salary: 'от 100000 на руки', experience: 'Work experience of more than 1 years', city: 'Otradnoye', metro: 'Rybatskoe'},
+    {name: 'Design engineer for the hull at the shipyard', salary: 'от 100000 на руки', experience: 'Work experience of more than 3 years', city: 'Otradnoye', metro: 'Rybatskoe'},
+    {name: 'Design Engineer of the Devices Department', salary: 'от 100000 на руки', experience: 'Work experience of more than 1 years', city: 'St. Petersburg', metro: 'Avtovo'},
+    {name: 'Design Engineer of the Devices Department at the shipyard', salary: 'от 100000 на руки', experience: 'Work experience of more than 1 years', city: 'Otradnoye', metro: 'Rybatskoe'},
     {name: 'The lead engineer is a calculator for the hull', salary: 'от 120000 на руки', experience: 'Work experience of more than 3 years', city: 'St. Petersburg', metro: 'Avtovo'},
     {name: 'Engineer-designer of ship systems and power plant systems', salary: 'от 80000 на руки', experience: 'Work experience of more than 1 years', city: 'St. Petersburg', metro: 'Avtovo'},
     {name: 'Engineer-designer of ship systems and power plant systems', salary: 'от 100000 на руки', experience: 'Work experience of more than 1 years', city: 'Otradnoye', metro: 'Rybatskoe'},
