@@ -7,19 +7,6 @@ export class Vacant {
   experience: string;
   office: string;
   metro: string;
-
-
-
-  img: string;
-  thumb: string;
-  video: string;
-  // mainProps = [];
-  props = [];
-  subDescription1 = '';
-  subDescription2 = '';
-  subDetails = [];
-  fishTypes = '';
-  recycles = '';
   indexPath = 0;
   constructor(name: string) {
     this.name = name;
