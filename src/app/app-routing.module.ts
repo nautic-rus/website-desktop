@@ -11,6 +11,7 @@ import {ProjectDetailsComponent} from './component/project-details/project-detai
 import {ModelComponent} from './component/model/model.component';
 import {ServicesComponent} from './component/services/services.component';
 import {BirthdayComponent} from './component/birthday/birthday.component';
+import {VacancyDetailsComponent} from './component/vacancy/vacancy-details/vacancy-details.component';
 
 
 
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'model', component: ModelComponent, data: {animation: 'ModelComponent'} },
   { path: 'services', component: ServicesComponent, data: {animation: 'ServicesComponent'} },
   { path: 'birthday', component: BirthdayComponent, data: {animation: 'BirthdayComponent'} },
+  { path: 'vacancy-details', component: VacancyDetailsComponent, data: {animation: 'VacancyDetailsComponent'} },
 ];
 
 @NgModule({

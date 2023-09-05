@@ -41,6 +41,7 @@
     "ngx-lightbox": "^2.3.0",
     "ngx-parallax": "^4.0.0",
     "npm": "^7.15.1",
+    "primeng": "11.4.5",
     "rxjs": "~6.6.0",
     "three": "^0.130.1",
     "tslib": "^2.0.0",

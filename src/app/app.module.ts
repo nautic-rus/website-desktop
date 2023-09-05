@@ -22,6 +22,15 @@ import { ModelComponent } from './component/model/model.component';
 import {ServicesComponent} from './component/services/services.component';
 import {NgxCollapseModule} from 'ngx-collapse';
 import {BirthdayComponent} from './component/birthday/birthday.component';
+import { SendResumeComponent } from './component/send-resume/send-resume.component';
+import {DialogService} from 'primeng/dynamicdialog';
+import {InputTextModule} from 'primeng/inputtext';
+import {InputMaskModule} from 'primeng/inputmask';
+import {ReactiveFormsModule} from '@angular/forms';
+import {SharedModule} from 'primeng/api';
+import {VacancyDetailsComponent} from './component/vacancy/vacancy-details/vacancy-details.component';
+import {HttpClientModule} from '@angular/common/http';
+import {DragDropModule} from 'primeng/dragdrop';
 
 @NgModule({
   declarations: [
@@ -38,21 +47,29 @@ import {BirthdayComponent} from './component/birthday/birthday.component';
     ProjectDetailsComponent,
     ModelComponent,
     ServicesComponent,
-    BirthdayComponent
+    BirthdayComponent,
+    SendResumeComponent,
+    VacancyDetailsComponent,
   ],
-  imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule,
-    LightboxModule,
-    ParallaxModule,
-    NgxSliderModule,
-    BrowserAnimationsModule,
-    NgxGalleryModule,
-    FontAwesomeModule,
-    HammerModule,
-    NgxCollapseModule
-  ],
-  providers: [],
+    imports: [
+        BrowserModule.withServerTransition({appId: 'serverApp'}),
+        AppRoutingModule,
+        LightboxModule,
+        ParallaxModule,
+        NgxSliderModule,
+        BrowserAnimationsModule,
+        NgxGalleryModule,
+        FontAwesomeModule,
+        HammerModule,
+        NgxCollapseModule,
+        InputTextModule,
+        InputMaskModule,
+        ReactiveFormsModule,
+        SharedModule,
+        HttpClientModule,
+        DragDropModule
+    ],
+  providers: [DialogService],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
