@@ -23,8 +23,8 @@
   </div>
   <div class="df">
     <div class="">{{vacancy.office}}</div>
-    <div *ngIf="vacancy.metro == 'м. Автово.' || vacancy.metro == 'Avtovo metro station.'" class="red-point mt-7px ml-10"></div>
-    <div *ngIf="vacancy.metro == 'м. Рыбацкое.' || vacancy.metro == 'Rybatskoe metro station.'" class="green-point mt-7px ml-10"></div>
+    <div *ngIf="vacancy.metro == 'м. Автово.' || 'Avtovo metro station.'" class="red-point mt-7px ml-10"></div>
+    <div *ngIf="vacancy.metro == 'м. Рыбацкое.' || 'Rybatskoe metro station.'" class="green-point mt-7px ml-10"></div>
     <div class="ml-5 indent-none">{{vacancy.metro}}</div>
   </div>
   <div *ngIf="vacancy.metro == 'м. Автово.' || 'Avtovo metro station.'" class="cx cy mt-10">
