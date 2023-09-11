@@ -21,7 +21,7 @@ export class VacancyManagerService {
     let vacancyCounter = 0;
     if (this.t.lang === 'RU'){
       this.vacancies[vacancyCounter] = new Vacant('Ведущий инженер-конструктор-электрик');
-      this.vacancies[vacancyCounter].salary = 'от 120 000₽ на руки';
+      this.vacancies[vacancyCounter].salary = 'от 100 000₽ на руки';
       this.vacancies[vacancyCounter].experience = 'более 6 лет';
       this.vacancies[vacancyCounter].responsibilities = ['— Разработка и согласование ПДСП и РКД (радиосвязь, навигация, автоматизация и сигнализация) с РМРС, верфью и заказчиком.'];
       this.vacancies[vacancyCounter].requirements = ['— Высшее техническое образование;', '— Опыт работы в конструкторских организациях на должностях 1 категорий или ведущего конструктора;', '— Опыт работы с РМРС;', '— Знание Правил РМРС;', '— Уверенное владение AutoCAD.' ];
@@ -65,7 +65,7 @@ export class VacancyManagerService {
 
       vacancyCounter += 1;
       this.vacancies[vacancyCounter] = new Vacant('Инженер-конструктор отдела судовых устройств на верфь');
-      this.vacancies[vacancyCounter].salary = 'от 100 000₽ на руки';
+      this.vacancies[vacancyCounter].salary = 'от 80 000₽ на руки';
       this.vacancies[vacancyCounter].experience = 'от 1 года';
       this.vacancies[vacancyCounter].responsibilities = ['— Подбор и размещение судовых устройств в соответствии с параметрами судна;', '— Выполнение расчетов подтверждающих требуемые характеристики оборудования;', '— Разработка сборочных и детальных чертежей судовых устройств;', '— Составление контрактных спецификаций и технических требований;', '— Согласование поставленного оборудования с надзорными органами;', '— Разработка эксплуатационной и приемо-сдаточной документации;'];
       this.vacancies[vacancyCounter].requirements = ['— Опыт самостоятельной разработки судового или нестандартного оборудования;', '— Современный подход к проектирование конструкций;', '— Уверенное владение AutoCAD, Solid, желательно Foran;', '— Коммуникабельность;', '— Ответственность;', '— Стрессоустойчивость.'];
@@ -98,7 +98,7 @@ export class VacancyManagerService {
 
       vacancyCounter += 1;
       this.vacancies[vacancyCounter] = new Vacant('Инженер-конструктор судовых систем и систем энергетических установок');
-      this.vacancies[vacancyCounter].salary = 'от 100 000₽ на руки';
+      this.vacancies[vacancyCounter].salary = 'от 80 000₽ на руки';
       this.vacancies[vacancyCounter].experience = 'от 1 года';
       this.vacancies[vacancyCounter].responsibilities = ['— Проектирование судовых систем рыболовных судов;', '— Разработка документации на стадии ПДСП, РКД, ЭД и ПСД;', '— Подбор оборудования, арматуры и фитингов размещение оборудования;', '— Моделирование систем трубопроводов в САПР(Foran).' ];
       this.vacancies[vacancyCounter].requirements = ['— Высшее техническое образование в области судостроения;', '— Знание правил РМРС;', '— Опыт работы в судостроении обязателен;', '— Опыт работы в конструкторских организациях в должности инженера-конструктора 1,2 категории/ведущего инженера-конструктора;', '— Современный подход к проектированию конструкций;', '— Коммуникабельность;', '— Ответственность;', '— Стрессоустойчивость.'];
@@ -110,7 +110,7 @@ export class VacancyManagerService {
     }
     else {
       this.vacancies[vacancyCounter] = new Vacant('Leading design engineer-electrician');
-      this.vacancies[vacancyCounter].salary = 'from 120,000₽';
+      this.vacancies[vacancyCounter].salary = 'from 100,000₽';
       this.vacancies[vacancyCounter].experience = 'more than 6 years';
       this.vacancies[vacancyCounter].responsibilities = ['— Development and coordination of PSP and RCD (radio communication, navigation, automation and alarm) with RMRS, shipyard and customer.'];
       this.vacancies[vacancyCounter].requirements = ['— Higher technical education;', '— Work experience in design organizations in positions of category 1 or lead designer;', '— Experience with RMRS;', '— Knowledge of RMRS Rules;', '— Confident ownership of AutoCAD.' ];
@@ -143,7 +143,7 @@ export class VacancyManagerService {
 
       vacancyCounter += 1;
       this.vacancies[vacancyCounter] = new Vacant('Design Engineer of the Devices Department');
-      this.vacancies[vacancyCounter].salary = 'from 100,000₽';
+      this.vacancies[vacancyCounter].salary = 'from 80,000₽';
       this.vacancies[vacancyCounter].experience = 'more than 1 years';
       this.vacancies[vacancyCounter].responsibilities = ['— Selection and placement of ships devices in accordance with the parameters of the vessel;', '— Performing calculations confirming the required characteristics of the equipment;', '— Development of assembly and detailed drawings of ship devices;', '— Drafting of contract specifications and technical requirements;', '— Coordination of the supplied equipment with the supervisory authorities;', '— Development of operational and acceptance documentation;'];
       this.vacancies[vacancyCounter].requirements = ['— Опыт самостоятельной разработки судового или нестандартного оборудования;', '— Современный подход к проектирование конструкций;', '— Уверенное владение AutoCAD, Solid, желательно Foran;', '— Коммуникабельность;', '— Ответственность;', '— Стрессоустойчивость.'];
@@ -154,7 +154,7 @@ export class VacancyManagerService {
 
       vacancyCounter += 1;
       this.vacancies[vacancyCounter] = new Vacant('Design Engineer of the Devices Department at the shipyard');
-      this.vacancies[vacancyCounter].salary = 'from 100,000₽';
+      this.vacancies[vacancyCounter].salary = 'from 80,000₽';
       this.vacancies[vacancyCounter].experience = 'more than 1 years';
       this.vacancies[vacancyCounter].responsibilities = ['— Selection and placement of ships devices in accordance with the parameters of the vessel;', '— Performing calculations confirming the required characteristics of the equipment;', '— Development of assembly and detailed drawings of ship devices;', '— Drafting of contract specifications and technical requirements;', '— Coordination of the supplied equipment with the supervisory authorities;', '— Development of operational and acceptance documentation;'];
       this.vacancies[vacancyCounter].requirements = ['— Опыт самостоятельной разработки судового или нестандартного оборудования;', '— Современный подход к проектирование конструкций;', '— Уверенное владение AutoCAD, Solid, желательно Foran;', '— Коммуникабельность;', '— Ответственность;', '— Стрессоустойчивость.'];
