@@ -11,12 +11,7 @@ export class Vacant {
   constructor(name: string) {
     this.name = name;
   }
-
   getNameUpper(): string{
-    return this.name.toUpperCase();
-  }
-
-  getDescNameUpper(): string{
     return this.name.toUpperCase();
   }
 }

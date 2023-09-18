@@ -67,10 +67,10 @@ export class SendResumeComponent implements OnInit {
         const file = files.item(x);
         if (file != null){
           const formData: FormData = new FormData();
-          formData.append('file', file, file.name);
+          formData.append('file', file, encodeURI(file.name));
           this.http.post<string>(environment.http + 'uploads/file', formData).subscribe(res => {
             console.log(res);
-            this.loaded.push(res);
+            this.loaded.push(decodeURI(res));
           });
         }
       }
@@ -79,7 +79,7 @@ export class SendResumeComponent implements OnInit {
 
   getFileName(file: string): string {
     const split = file.split('/');
-    return split[split.length - 1];
+    return decodeURI(split[split.length - 1]);
   }
   close() {
     this.ref.close();
