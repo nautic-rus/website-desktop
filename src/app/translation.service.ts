@@ -14,8 +14,8 @@ export class TranslationService {
     }
     else{
       this.route.queryParams.subscribe(params => {
-        if (params.lang != null && (params.lang == 'RU' || params.lang == 'EN')){
-          this.lang = params.lang;
+        if (params.lang != null && (params.lang == 'ru' || params.lang == 'en')){
+          this.lang = params.lang.toUpperCase();
         }
         else{
           this.lang = 'RU';
